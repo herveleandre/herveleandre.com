@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Full Stack Project</title>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+
+<body>
+    <div class="logo2">
+    <img class="logo1" src="Herve-Logo-00_03.gif" alt="logo">
+    
+
+    </div>
+    </div>
+    <nav>
+   
+    <ul class="topnav" id="dropdownclick">
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="index.html">CONTACT</a></li>
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="index.html">RESUME</a></li>
+        <li class="topnav-right"><a href="index.html">Sign Up</a></li>
+        <li class="topnav-right"><a href="index.html">Sign In</a></li>
+        <li class="dropdownicon"><a href="#"
+            onclick="dropdownmenu()">&#9776;</a></li>
+    </ul>
+
+  </nav>
+
+  <div class="container" id="section1gradient">
+<div class="row">
+    <div class="col-6 ">
+        <div class="leftside-col">
+            <h1 class="larger">Herve Leandre</h1>
+            <h1 class="larger">Web/Software Developer</h1>
+        </div>
+        <form>
+            <div class="leftside-col">
+                <h2>Username</h2>
+                <input class="inputbox" name="username" type="text" placeholder="Username"> 
+                <h2>Password</h2>
+                <input class="inputbox" name="password" type="text" placeholder="Password"> 
+
+            </div>
+
+        </form>
+    </div>
+    <div class="col-6">
+        <div class="rightside-col">
+            <div class="videocontainer">
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/d4Zb4f4rnL4" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
+
+</div>
+  </div>
+
+<header>
+    <h1 class="header1">The Many ways to Code</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="pic.png" alt="image" >
+                        <br>
+                        <label>
+                            Learn With Me
+                        </label>
+                        <p>
+                            Lorem ipsum, or lipsum as it is sometimes known, 
+                            is dummy text used in laying out print, graphic 
+                            or web designs. The passage is attributed to an 
+                            unknown typesetter in the 15th century. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="pic.png" alt="image" >
+                        <br>
+                        <label>
+                            Fun And Games
+                        </label>
+                        <p>
+                            Lorem ipsum, or lipsum as it is sometimes known, 
+                            is dummy text used in laying out print, graphic 
+                            or web designs. The passage is attributed to an 
+                            unknown typesetter in the 15th century. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="pic.png" alt="image" >
+                        <br>
+                        <label>
+                            Art is Progress
+                        </label>
+                        <p>
+                            Lorem ipsum, or lipsum as it is sometimes known, 
+                            is dummy text used in laying out print, graphic 
+                            or web designs. The passage is attributed to an 
+                            unknown typesetter in the 15th century. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div>
+    <div class="col-12">
+        <button class="learnmore">Learn More</button>
+    </div>
+
+</div>
+    <hr>
+ 
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                <p>
+                    Lorem ipsum, or lipsum as it is sometimes known,
+                    is dummy text used in laying out print, graphic
+                    or web designs. The passage is attributed to an
+                    unknown typesetter in the 15th century.
+                    Lorem ipsum, or lipsum as it is sometimes known,
+                    is dummy text used in laying out print, graphic
+                    or web designs. The passage is attributed to an
+                    unknown typesetter in the 15th century.
+                    Lorem ipsum, or lipsum as it is sometimes known,
+                    is dummy text used in laying out print, graphic
+                    or web designs. The passage is attributed to an
+                    unknown typesetter in the 15th century.
+                </p>
+            </article>
+
+        </div>
+        <div class="col-5">
+            
+            <img class="back" src="back.jpg">
+        </div>
+        </div>
+
+    </div>
+
+</header>
+
+<footer>
+
+    <div class="row">
+        <div class="col-3" class="footer1">
+            <header>
+                <div class="sociallinks">   
+                    <div class="linksall">
+                        <ul>
+                            <li>
+                                <a href="facebook.com">Facebook</a>
+            
+                            </li>
+            
+                        </ul>
+            
+                    </div>
+            
+            </header>
+        </div>
+    
+    </div>
+</footer>
+
+
+
+<script>
+    function dropdownmenu(){
+        var x = document.getElementById("dropdownclick");
+        if (x.className === "topnav"){
+            x.className += " responsive";
+            /* ##### SPACE BEFORE responsive (ABOVE) IS IMPORTANT ###*/
+        }else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+
+</html>
